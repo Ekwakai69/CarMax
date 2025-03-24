@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap');
+
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 2s linear;
+  }
+}
+
+.App-header {
+  text-transform: uppercase;
+
+  border-radius: 30px;
+  background: -moz-linear-gradient(135deg, #0052D4, #4364F7);
+  box-shadow: 0px 4px 10px rbga(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  background-color:#000000;
+  min-height: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #AF8F2C;
+  border: solid 10px;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+
+.App-header:hover{
+  background-color:#AF8F2C;
+  box-shadow: 0px 4px 10px rgba(212, 175, 55, 0.5);
+  transition: 0.5s;
+  color:black;
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav{
+  
+    display: flex;
+    justify-content: flex-end; /* Moves links to the right */
+    align-items: center;
+    background-color: #AF8F2C;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    gap: 10px;
+  
+  
+
+}
+.link1{
+  border: solid 2px;
+  border-color: #000000;
+  text-decoration: none;
+  background-color: aliceblue;
+  bottom: unset;
+  color:black;
+  align-items: center;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 6px;
+
+}
+.link1:hover {
+  background-color: rgb(0, 0, 0); 
+  color: #AF8F2C; 
+  border-color: gray; 
+}
+
+
+.link2{
+  border: solid 2px;
+  border-color: #000000;
+  text-decoration: none;
+  background-color: aliceblue;
+  bottom: unset;
+  color:black;
+  align-items: center;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 5px;
+
+}
+.link2:hover {
+  background-color: rgb(0, 0, 0); 
+  color: #AF8F2C; 
+  border-color: gray; 
+}
+
+
+.link3{
+  border: solid 2px;
+  border-color: #000000;
+  text-decoration: none;
+  background-color: aliceblue;
+  bottom: unset;
+  color:black;
+  align-items: center;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 5px;
+
+}
+.link3:hover {
+  background-color: rgb(0, 0, 0); 
+  color: #AF8F2C; 
+  border-color: gray; 
+}
+
+
+.link4{
+  border: solid 2px;
+  border-color: #000000;
+  text-decoration: none;
+  background-color: aliceblue;
+  bottom: unset;
+  color:black;
+  align-items: center;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 5px;
+
+}
+.link4:hover {
+  background-color: rgb(0, 0, 0); 
+  color: #AF8F2C; 
+  border-color: gray; 
+}
+
+
+.link5{
+  border: solid 2px;
+  border-color: #000000;
+  text-decoration: none;
+  background-color: aliceblue;
+  bottom: unset;
+  color:black;
+  align-items: center;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 5px;
+
+}
+.link5:hover {
+  background-color: rgb(0, 0, 0); 
+  color: #AF8F2C; 
+  border-color: gray; 
+}
+
+
+.link6{
+  border: solid 2px;
+  border-color: #000000;
+  text-decoration: none;
+  background-color: rgb(75, 106, 62);
+  bottom: unset;
+  color:gold;
+  align-items: center;
+  border-radius: 10px;
+  padding: 6px;
+  margin: 5px;
+
+}
+.link6:hover {
+  background-color: rgb(152, 11, 11); 
+  color: gold; 
+  border-color: black; 
+}
+
+.not-found-container {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #D4AF37;
+  margin: 20px;
+  border-radius: 50px;
+}
+.not-found-container:hover{
+  background-color: rgb(215, 151, 0); 
+  color: #000000; 
+  border-color: gray; 
+}
+
+.not-found-heading {
+  font-size: 3rem;
+  color: #333;
+}
+
+.not-found-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.not-found-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.not-found-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.not-found-button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+.products-container {
+  
+  text-align: center;
+  padding: 20px;
+  color: #AF8F2C;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.products-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product-card {
+  background: #AF8F2C;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.add-to-cart-btn {
+  background: black;
+  padding: 20px;
+  margin: 20px;
+  color: #AF8F2C;
+  border: 2px solid black;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background: #AF8F2C;
+  color: black;
+}
+
+.cart-container {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: #AF8F2C;
+}
+
+.cart-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.empty-cart {
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #AF8F2C;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.cart-item:hover {
+  transform: scale(1.02);
+}
+
+.cart-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.cart-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.cart-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.remove-btn {
+  background: black;
+  color: gold;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.remove-btn:hover {
+  background: gold;
+  color: black;
+}
+
+.cart-total {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.checkout-btn {
+  background: black;
+  color: gold;
+  border: 2px solid gold;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background: gold;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 10px 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: gold;
+}
+
+.auth {
+  color: cyan;
+}
+
+.cart {
+  color: gold;
+}
+
+.welcome {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.logout-btn {
+  background-color: rgb(169, 33, 33);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border:solid 2px rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background-color: darkred;
+}
+
